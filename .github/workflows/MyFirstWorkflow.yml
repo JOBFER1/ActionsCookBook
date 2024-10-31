@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Saluda al usuario
+      - uses: actions/checkout@v4.1.6
       - run: echo "Hola Mundo from ${{ github.actor }}"
       - shell: bash
-#      - uses: actions/checkout@v4.1.6
 #      - run: tree
       
         

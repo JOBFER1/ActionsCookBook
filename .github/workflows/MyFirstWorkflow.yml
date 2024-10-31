@@ -13,5 +13,4 @@ jobs:
       - name: Saludando...
       - run: echo "Hola Mundo from ${{ github.actor }}"
       - uses: actions/checkout@v4.1.6
-      - name: Ejecuta el tree
       - run: tree      

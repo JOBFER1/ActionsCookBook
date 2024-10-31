@@ -7,15 +7,10 @@ on:
   workflow_dispatch:
 jobs:
   first_job:  
-    name: Mi primer job
+    name: Muestra el tree
     runs-on: ubuntu-latest
     steps:
-      - name: Saluda al usuario
       - uses: actions/checkout@v4.1.6
+      - shell: bash
       - run: tree
-      
-      
-      
         
-      
-      

@@ -13,8 +13,8 @@ jobs:
       - name: Saluda al usuario
       - run: echo "Hola Mundo from ${{ github.actor }}"
       - shell: bash
-      - uses: actions/checkout@v4.1.6
-      - run: tree
+#      - uses: actions/checkout@v4.1.6
+#      - run: tree
       
         
       

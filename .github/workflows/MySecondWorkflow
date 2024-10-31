@@ -1,0 +1,16 @@
+# Segundo workflow
+name: My First Workflow
+on: 
+  push:
+    branches: 
+      - main
+  workflow_dispatch:
+jobs:
+  first_job:  
+    name: Mi segundo job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Saluda al usuario
+      - uses: actions/checkout@v4.1.6
+      - shell: bash
+      - run: tree

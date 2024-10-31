@@ -10,7 +10,8 @@ jobs:
     name: Saluda al usuario
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hola Mundo from ${{ github.actor }}"
+      - name: Saludando...
+        run: echo "Hola Mundo from ${{ github.actor }}"
   segundo_job:  
     name: Ejecuta el tree
     runs-on: ubuntu-latest

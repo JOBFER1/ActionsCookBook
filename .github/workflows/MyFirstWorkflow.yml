@@ -16,5 +16,6 @@ jobs:
     name: Ejecuta el tree
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.6
+      - name: El checkout
+        uses: actions/checkout@v4.1.6
       - run: tree          

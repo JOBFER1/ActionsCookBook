@@ -6,11 +6,14 @@ on:
       - main
   workflow_dispatch:
 jobs:
-  first_job:  
+  primer_job:  
     name: Saluda al usuario
     runs-on: ubuntu-latest
     steps:
-      - name: Saludando...
       - run: echo "Hola Mundo from ${{ github.actor }}"
+  segundo_job:  
+    name: Ejecuta el tree
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v4.1.6
-      - run: tree      
+      - run: tree          

@@ -1,5 +1,5 @@
 # Segundo workflow
-name: My First Workflow
+name: My Second Workflow
 on: 
   push:
     branches: 
